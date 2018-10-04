@@ -13,7 +13,7 @@ namespace EntityFrameworkSchema.Data
 {
     public class LibraryDbContext : DbContext, ILibraryDbContext
     {
-        public static string DefaultSchema = "dbo";
+        public static string DefaultSchema = "library";
 
         public virtual DbSet<Author> Authors { get; set; }
 

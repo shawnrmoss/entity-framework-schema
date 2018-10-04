@@ -55,6 +55,10 @@
     <Compile Include="Migrations\201810041850313_initial.Designer.cs">
       <DependentUpon>201810041850313_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810041903026_schema-changed-to-library.cs" />
+    <Compile Include="Migrations\201810041903026_schema-changed-to-library.Designer.cs">
+      <DependentUpon>201810041903026_schema-changed-to-library.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\Book.cs" />
@@ -69,6 +73,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201810041850313_initial.resx">
       <DependentUpon>201810041850313_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810041903026_schema-changed-to-library.resx">
+      <DependentUpon>201810041903026_schema-changed-to-library.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
